@@ -1,4 +1,4 @@
-FROM nebulatgs/hexa-base
+FROM mcr.microsoft.com/dotnet/aspnet
 WORKDIR /root
 COPY ./publish .
 #COPY ./config.json .
